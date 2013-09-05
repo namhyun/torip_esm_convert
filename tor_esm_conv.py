@@ -21,9 +21,9 @@ def torGet():
         print savedata
         with open('torip.txt','w') as f:
             f.write(savedata)
-        print "저장성공"
+        print "Save Good"
     except IOError as e:
-        print "접속불가"
+        print "Connection Fail, Please try after 10 minutes. "
         pass
     time.sleep(3)
 
@@ -61,7 +61,7 @@ def savefiles():
         FH.close
     except Exception as inst:
         print inst
-        print "심각한 에러발생"
+        print "Error"
         
     return saveBlackList
 
