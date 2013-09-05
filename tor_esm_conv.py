@@ -1,4 +1,4 @@
- # -*- coding: cp949 -*-
+# -*- coding: utf8 -*-
 """
         twitter feed information get script
 """
@@ -74,3 +74,4 @@ if __name__ == '__main__':
     except Exception as inst:
         pass
         
+
