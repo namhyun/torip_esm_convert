@@ -1,4 +1,4 @@
-#-*- coding: cp949 -*-
+# -*- coding: cp949 -*-
 import urllib2
 import re
 import sys
