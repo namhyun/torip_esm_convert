@@ -1,5 +1,9 @@
+ # -*- coding: cp949 -*-
+"""
+        twitter feed information get script
+"""
+__author__ = 'happen00@gmail.com (Namhyun Kim)'
 
-# -*- coding: cp949 -*-
 import urllib2
 import re
 import sys
