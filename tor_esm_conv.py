@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 """
-        twitter feed information get script
+        tor ip information get script
 """
 __author__ = 'happen00@gmail.com (Namhyun Kim)'
 
