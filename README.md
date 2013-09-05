@@ -13,9 +13,9 @@ torip_esm_convert
 
 
 * TOR관련 IP정보를 제공하는 사이트
-http://torstatus.blutmagie.de/
-http://69.195.137.28/open/suricata/rules/tor.rules
-https://www.dan.me.uk/tornodes
-http://proxy.org/tor.shtml
-http://ipduh.com/ip/tor-exit/
+- http://torstatus.blutmagie.de/
+- http://69.195.137.28/open/suricata/rules/tor.rules
+- https://www.dan.me.uk/tornodes
+- http://proxy.org/tor.shtml
+- http://ipduh.com/ip/tor-exit/
 
