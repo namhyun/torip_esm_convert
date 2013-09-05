@@ -6,7 +6,7 @@ torip_esm_convert
 *스크립트 실행 방법
 
 1. 파이썬 2.7.x를 설치한다.
-2. "tor_esm_conv.py" 를 다운 받아 실행한다.
+2. [tor_esm_conv.py] 를 다운 받아 실행한다.
 
 * ESM 등록 방법 
 
