@@ -1,9 +1,4 @@
-# -*- coding: utf8 -*-
-"""
-        tor ip information get script
-"""
-__author__ = 'happen00@gmail.com (Namhyun Kim)'
-
+#-*- coding: cp949 -*-
 import urllib2
 import re
 import sys
@@ -21,9 +16,9 @@ def torGet():
         print savedata
         with open('torip.txt','w') as f:
             f.write(savedata)
-        print "Save Good"
+        print "저장성공"
     except IOError as e:
-        print "Connection Fail, Please try after 10 minutes. "
+        print "접속불가"
         pass
     time.sleep(3)
 
@@ -61,7 +56,7 @@ def savefiles():
         FH.close
     except Exception as inst:
         print inst
-        print "Error"
+        print "심각한 에러발생"
         
     return saveBlackList
 
@@ -73,5 +68,3 @@ if __name__ == '__main__':
         saveLog(saveBlackList)
     except Exception as inst:
         pass
-        
-
